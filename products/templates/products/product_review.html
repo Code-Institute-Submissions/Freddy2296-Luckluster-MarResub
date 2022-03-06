@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="logo-font mb-4">Product Review</h2>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Specific Order Details -->
+            <div class="col-12">
+                <p class="text-muted">Order Details</p>
+                <div class="order-history table-responsive">
+                    <table class="table table-sm table-borderless">
+                        <thead>
+                            <tr>
+                                <th>Order Number</th>
+                                <th>Date</th>
+                                <th>Items</th>
+                                <th>Order Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td >
+                                    <div class="d-lg-none">{{ order.order_number|truncatechars:6 }}</div>
+                                    <div class="d-none d-lg-block">{{ order.order_number }}</div>
+                                </td>
+                                <td>{{ order.date }}</td>
+                                <td>
+                                    <ul class="list-unstyled">
+                                        {% for item in order.lineitems.all %}
+                                            <li class="small">
+                                                {% if item.product.has_sizes %}
+                                                    Size {{ item.product.size|upper }}
+                                                {% endif %}{{ item.product.name }} x{{ item.quantity }}
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                                <td>€{{ order.grand_total }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <hr>
+
+                <!-- Select Order Item -->
+                <form method="POST" action="{% url 'add_review' %}" class="form mb-2" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col">
+                            <label for="itemselect">Choose Item for Review:</label>
+                            <select name="pid" id="itemselect">
+                                {% for item in order.lineitems.all %}
+                                    <!-- present user with Name, but submit Product ID -->
+                                    <option value="{{ item.product.id }}">{{ item.product.name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="col text-right">
+                            <!-- Select Rating -->
+                            <label for="ratingselect">Choose Item Rating:</label>
+                            <select name="rating" id="ratingselect">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="col d-none d-lg-block"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="margin-top: 20px;">               
+                            <textarea id="review" name="review" rows="10" cols="50" placeholder="Please enter your Product Review:"></textarea>
+                        </div>
+                    </div>
+                    <!-- Buttons -->
+                    <div class="text-left">
+                        <a href="{% url 'order_history' order.order_number %}" class="btn btn-black rounded-0 my-2">
+                            <span class="icon mr-2">
+                                <i class="fas fa-arrow-left"></i>
+                            </span>
+                            <span class="text-uppercase">Return to Order Details</span>
+                        </a>
+                        <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
+                            <span class="icon mr-2">
+                                <i class="fas fa-user-alt"></i>
+                            </span>
+                            <span class="text-uppercase">Return to Your Profile</span>
+                        </a>
+                        <button class="btn btn-black rounded-0" type="submit">Submit Review</button>
+                    </div>
+                </form> 
+            </div>            
+        </div>
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
+{% endblock %}
