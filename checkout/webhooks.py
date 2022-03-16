@@ -7,11 +7,12 @@ from checkout.webhook_handler import StripeWH_Handler
 
 import stripe
 
+
 @require_POST
 @csrf_exempt
 def webhook(request):
     """Listen for webhooks from Stripe"""
-    # Setup
+    # Setup API Keys to verify webhook came from Stripe
     wh_secret = settings.STRIPE_WH_SECRET
     stripe.api_key = settings.STRIPE_SECRET_KEY
 
@@ -33,13 +34,14 @@ def webhook(request):
     except Exception as e:
         return HttpResponse(content=e, status=400)
 
-      # Set up a webhook handler
+    # Set up a webhook handler
     handler = StripeWH_Handler(request)
 
     # Map webhook events to relevant handler functions
     event_map = {
         'payment_intent.succeeded': handler.handle_payment_intent_succeeded,
-        'payment_intent.payment_failed': handler.handle_payment_intent_payment_failed,
+        'payment_intent.payment_failed':
+        handler.handle_payment_intent_payment_failed,
     }
 
     # Get the webhook type from Stripe
