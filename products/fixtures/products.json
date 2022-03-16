@@ -4,13 +4,13 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001340155",
-        "name": "Absolute Batman Hush Hardcover",
-        "description": "(W) Jeph Loeb (A/CA) Jim Lee. This edition includes BATMAN #608-619 plus the 2-page origin of Batman, a sketchbook section and more. This epic story features Batman's deadliest foes and introduces Hush!",
-        "price": 99.99,
+        "name": "Naruto Volume 1",
+        "description": "(W) Masashi Kishimoto. A nine-tailed fox spirit claimed the life of the village leader, the Hokage, and many others. Today, the village is at peace and a troublemaking kid named Naruto is struggling to graduate from Ninja Academy. His goal may be to become the next Hokage, but his true destiny will be much more complicated.",
+        "price": 9.99,
         "category": 6,
         "rating": 5.0,
-        "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.co.uk%2FAbsolute-Batman-Hush-Jeph-Loeb%2Fdp%2F1401204260&psig=AOvVaw2xrf7XeGSKzskKWkAhRz3T&ust=1602690245271000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiPisv0sewCFQAAAAAdAAAAABAD",
-        "image": "71yB5ICj5TL.jpg"
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/912xRMMra4L.jpg",
+        "image": "912xRMMra4L.jpg"
       }
     },
     {

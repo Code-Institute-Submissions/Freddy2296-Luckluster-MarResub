@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/comic_naruto.jpg') no-repeat center center fixed;
+    background: url('/media/naruto_kurma.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: rgb(37, 37, 37);

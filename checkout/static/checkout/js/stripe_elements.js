@@ -1,7 +1,6 @@
 /*
     Core logic/payment flow for this comes from here:
     https://stripe.com/docs/payments/accept-a-payment
-
     CSS from here: 
     https://stripe.com/docs/stripe-js
 */
@@ -28,10 +27,11 @@ var style = {
 var card = elements.create('card', {style: style});
 card.mount('#card-element');
 
-// Handle realtime validation errors on the card element
+// Realtime Validation Errors: everytime there's a change to the card element, check for errors
 card.addEventListener('change', function (event) {
     var errorDiv = document.getElementById('card-errors');
     if (event.error) {
+        // if an error exists, display within the card error div on checkout page
         var html = `
             <span class="icon" role="alert">
                 <i class="fas fa-times"></i>
@@ -48,15 +48,21 @@ card.addEventListener('change', function (event) {
 var form = document.getElementById('payment-form');
 
 form.addEventListener('submit', function(ev) {
+    // Prevent default POST action
     ev.preventDefault();
+    // Instead disable both the card element and submit button to prevent multiple submissions
     card.update({ 'disabled': true});
     $('#submit-button').attr('disabled', true);
+    // trigger overlay and fade out form when use clicks submit
     $('#payment-form').fadeToggle(100);
     $('#loading-overlay').fadeToggle(100);
+    // send card infomation to stripe
 
+    // get safe info check box value
     var saveInfo = Boolean($('#id-save-info').attr('checked'));
     // From using {% csrf_token %} in the form
     var csrfToken = $('input[name="csrfmiddlewaretoken"]').val();
+    // create object to pass information to cache_checkout_data view
     var postData = {
         'csrfmiddlewaretoken': csrfToken,
         'client_secret': clientSecret,
@@ -64,6 +70,7 @@ form.addEventListener('submit', function(ev) {
     };
     var url = '/checkout/cache_checkout_data/';
 
+    // Wait for a response before calling the confirmed payment stripe method
     $.post(url, postData).done(function () {
         stripe.confirmCardPayment(clientSecret, {
             payment_method: {
@@ -95,6 +102,7 @@ form.addEventListener('submit', function(ev) {
             },
         }).then(function(result) {
             if (result.error) {
+                // if there's an error, put error info into card-errors div
                 var errorDiv = document.getElementById('card-errors');
                 var html = `
                     <span class="icon" role="alert">
@@ -102,17 +110,20 @@ form.addEventListener('submit', function(ev) {
                     </span>
                     <span>${result.error.message}</span>`;
                 $(errorDiv).html(html);
+                // if there's an error, enable the card and submit buttons so user can fix issue
                 $('#payment-form').fadeToggle(100);
                 $('#loading-overlay').fadeToggle(100);
                 card.update({ 'disabled': false});
                 $('#submit-button').attr('disabled', false);
             } else {
                 if (result.paymentIntent.status === 'succeeded') {
+                    // if payment intent status is 'succeeded', submit the form
                     form.submit();
                 }
             }
         });
     }).fail(function () {
+        // if a 400 bad request message response is received,
         // just reload the page, the error will be in django messages
         location.reload();
     })
