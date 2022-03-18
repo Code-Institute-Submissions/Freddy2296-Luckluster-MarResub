@@ -32,13 +32,13 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001346755",
-        "name": "Wizards of the Coast: Dungeons & Dragons Board Game",
-        "description": "Lords of Waterdeep is a strategy board game for 2-5 players. You take on the role of one of the masked Lords of Waterdeep, secret rulers of the city. Through your agents, you recruit adventurers to go on quests on your behalf, earning rewards and increasing your influence over the city. Expand the city by purchasing new buildings that open up new actions on the board, and hinder—or help—the other lords by playing Intrigue cards to enact your carefully laid plans.",
-        "price": 44.99,
-        "category": 1,
-        "rating": 4.3,
-        "image_url": "https://images-na.ssl-images-amazon.com/images/I/71kvoGKpSvL._AC_SL1200_.jpg",
-        "image": "71kvoGKpSvL._AC_SL1200_.jpg"
+        "name": "My Hero Academia, Vol. 1",
+        "description": "(W)Kohei Horikoshi, Middle school student Izuku Midoriya wants to be a hero more than anything, but he hasn't got an ounce of power in him. With no chance of ever getting into the prestigious U.A. High School for budding heroes, his life is looking more and more like a dead end.",
+        "price": 8.99,
+        "category": 6,
+        "rating": 4.8,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81jEKv9IZwL.jpg",
+        "image": "81jEKv9IZwL.jpg"
       }
     },
     {
@@ -46,13 +46,182 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001356755",
-        "name": "Superman Compression top",
-        "description": "Superman Compression top: Ultra-tight, second skin fit",
-        "price": 18.99,
-        "category": 10,
-        "rating": 4.0,
-        "image_url": "https://images-na.ssl-images-amazon.com/images/I/718Ucq4NWwL._AC_SX679._SX._UX._SY._UY_.jpg",
-        "image": "718Ucq4NWwL.jpg"
+        "name": "One Piece, Vol. 1: Romance Dawn ",
+        "description": "(W)Eiichiro Oda, The story begins in a flashback in which young Luffy promises his role-model, Red-Haired Shanks, that he going to become the king of the pirates and find the legendary treasure, One Piece. Then, Luffy accidentally eats the Gum-Gum fruit, which turns his body to rubber but takes away his ability to swim!",
+        "price": 9.99 ,
+        "category": 6,
+        "rating": 4.5,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/91NxYvUNf6L.jpg",
+        "image": "onepiece.jpg"
       }
+    },
+    {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001351996",
+        "name": "Naruto Shippuden Vol 28 ",
+        "description": "(W), Naruto Uzumaki is back! After a long training journey with one of the Legendary Sannin, Jiraiya, Naruto has returned older, a little bit wiser, and a lot stronger! Sakura's been studying under another of the Sannin, Tsunade, and is now an accomplished medic ninja with a few new battle skills of her own.",
+        "price": 10.99 ,
+        "category": 6,
+        "rating": 4.5 ,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81wF8tFHquL.jpg",
+        "image": "naurtoshonen.jpg"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001352000",
+        "name": " Demon Slayer ",
+        "description": "(W) Koyoharu Gotouge, In Taisho-era Japan, kindhearted Tanjiro Kamado makes a living selling charcoal. But his peaceful life is shattered when a demon slaughters his entire family. His little sister Nezuko is the only survivor, but she has been transformed into a demon herself! Tanjiro sets out on a dangerous journey to find a way to return his sister to normal and destroy the demon who ruined his life.Learning to destroy demons won’t be easy, and Tanjiro barely knows where to start. The surprise appearance of another boy named Giyu, who seems to know what’s going on, might provide some answers—but only if Tanjiro can stop Giyu from killing his sister first!",
+        "price": 9.99 ,
+        "category": 6,
+        "rating": 4.9 ,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81ZNkhqRvVL.jpg",
+        "image": "demonslayer.jpg"
+
+    }
+    },
+    {
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001352005",
+        "name": "Bleach, Vol. 1",
+        "description": "(W)Tite Kubo, Now a full-fledged shinigami himself, Ichigo quickly learns that the world he inhabits is one full of dangerous spirits, and along with Rukia, who is slowly regaining her powers, it's Ichigo's job to both protect the innocent from Hollows and to help the spirits themselves find peace",
+        "price": 9.99 ,
+        "category": 6,
+        "rating": 4.8 ,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81dfhgbb2qL.jpg",
+        "image": "bleach.jpg"
+    }
+    },
+    {
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001353000",
+        "name": "Death Note, Vol. 1  ",
+        "description": "(W)Takeshi Obata Light Yagami is an ace student with great prospects--and he's bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and now Light has vowed to use the power of the Death Note to rid the world of evil. But when criminals begin dropping dead, the authorities send the legendary detective L to track down the killer. With L hot on his heels, will Light lose sight of his noble goal...or his life?, ",
+        "price": 8.99 ,
+        "category":6 ,
+        "rating":  4.5,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81iDNjn-r3L.jpg",
+        "image": "deathnote.jpj"
+    }
+    },
+    {
+      "pk": 9,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001354000",
+        "name": "Naruto Shippuden: Ultimate Ninja Storm 4",
+        "description": "In NARUTO SHIPPUDEN™: Ultimate Ninja® STORM 4, a broad set of Ninja Skills will be yours to use against the fiercest foes you'll ever encounter. Massive attacks in the form of secret techniques, energetic evolutions with the “Awakening”, the inimitable shurikens & kunais and a unique playstyle for each ninja! ",
+        "price": 29.99,
+        "category": 1,
+        "rating": 8.3 ,
+        "image_url": "https://image.api.playstation.com/cdn/UP0700/CUSA02412_00/BlS88n8QkRnZK2rg4wxxbbPRYqMZvx8C.png",
+        "image": "ultimeninja.jpg"
+    }
+    },
+    {
+      "pk": 10,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001354005",
+        "name": " JUMP FORCE",
+        "description": "Jump Force is a Japanese crossover fighting game developed by Spike Chunsoft and published by Bandai Namco Entertainment featuring characters from various manga series featured in Shueisha's Weekly Shōnen Jump anthology in celebration of the magazine's 50th anniversary. ",
+        "price": 59.99  ,
+        "category": 1 ,
+        "rating": 4.6  ,
+        "image_url": "https://m.media-amazon.com/images/I/81lRlnVpkCS._AC_SX466_.jpg",
+        "image": "jumpforce.jpg"
+    }
+    },
+    {
+      "pk":11 ,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001354010",
+        "name": " DRAGON BALL Z: KAKAROT",
+        "description": "Dragon Ball Z: Kakarot is an open world action role playing game developed by CyberConnect2 and published by Bandai Namco Entertainment, based on the Dragon Ball franchise ",
+        "price":59.99  ,
+        "category":1 ,
+        "rating": 4.6 ,
+        "image_url": "https://media.vandal.net/m/70008/dragon-ball-z-kakarot-20201311445449_1.jpg",
+        "image": "dragon-ball-z.jpg"
+    }
+    },
+    {
+      "pk": 12,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001354020",
+        "name": "Dragon Ball FighterZ",
+        "description": "Dragon Ball FighterZ is a 2.5D fighting game, developed by Arc System Works and published by Bandai Namco Entertainment ",
+        "price": 49.99 ,
+        "category": 1,
+        "rating": 4.5 ,
+        "image_url": "https://m.media-amazon.com/images/I/81XZY7F3eyS._AC_SX466_.jpg",
+        "image": "dbz.jpg"
+    }
+    },
+    {
+      "pk": 13,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001345000",
+        "name": " Otaku USA",
+        "description": "(E) Patrick Macias, Otaku USA is a bimonthly magazine published by Sovereign Media, which covers various elements of the 'otaku' lifestyle from an American perspective.",
+        "price": 13.99 ,
+        "category":8 ,
+        "rating": 5,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/91MIz6okZ8L.jpg",
+        "image": "otaku.jpg"
+    }
+    },
+    {
+      "pk": 14,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001345010",
+        "name": " Animage ",
+        "description": "(E) Tokuma Shoten, Animage is a Japanese anime and entertainment magazine which Tokuma Shoten began publishing in July 1978. Hayao Miyazaki's internationally renowned manga, Nausicaä of the Valley of the Wind, was serialized in Animage from 1982 through 1994. ",
+        "price": 10.99 ,
+        "category": 8 ,
+        "rating":  4.5 ,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81RefKOkaNL.jpg",
+        "image": "animage.jpg"
+    }
+    },
+    {
+      "pk": 15,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001346000",
+        "name": "Shonen Jump ",
+        "description": "(E) Jason Thompson; Yumi Hoashi; Marc Weidenbaum; Grant Lowery, Shonen Jump, officially stylized SHONEN JUMP and abbreviated SJ, was a shōnen manga anthology published in North America by Viz Media. It debuted in November 2002 with the first issue having a January 2003 cover date. ",
+        "price": 1.99 ,
+        "category":8 ,
+        "rating": 4.5 ,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/A1LVw-Nt8KL.jpg",
+        "image": "shonenjump.jpg"
+    }
+    },
+    {
+      "pk": 16,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001346005",
+        "name": " Ripple Junction Naruto - Shippuden Itachi Clouds Adult T-Shirt",
+        "description": " Naruto Akatsuki T-shirt DESCRIPTION Are you looking for the best T-Shirt you've ever owned? Then grab this awesome All Over Print Tee from us! It's made with 100% Premium Polyester that feels just as soft as cotton and hand-finished to ensure your graphic is aligned, complete, and totally brilliant ",
+        "price": 15.99 ,
+        "category":10 ,
+        "rating": 5 ,
+        "image_url": "https://i.pinimg.com/564x/84/e9/5b/84e95b4c51ddec946fdcc8d9c67fb63e.jpg",
+        "image": "itachi.jpg"
+    }
     }
   ]
