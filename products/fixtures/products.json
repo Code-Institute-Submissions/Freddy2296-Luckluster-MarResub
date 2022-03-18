@@ -18,13 +18,13 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001600425",
-        "name": "Absolute Batman The Court of Owls Hardcover",
-        "description": "(W) Scott Snyder, James TynionIV (A) Greg Capullo, Jonathan Glapion (CA) Greg Capullo. The explosive 'Court of Owls' storyline gets the Absolute Edition treatment, collecting BATMAN #1-11! It all begins when a series of brutal murders rocks not only Gotham City to its core but also the Caped Crusader himself when the prime suspect is one of Batman's closest allies - Dick Grayson! After a series of deadly discoveries, Bruce Wayne has learned that the Court of Owls is real - and a deadly threat out to control Gotham City!",
-        "price": 99.99,
+        "name": "Attack on Titan, Vol. 1",
+        "description": "(W)  Hajime Isayama, The main protagonist is a 15-year-old named Eren Yeager who lives with his sister and parents until one day, his village is destroyed by giants called titans. After Eren's mother is eaten by a titan, Eren decides to avenge her death and become strong enough to kill titans.",
+        "price": 10.99,
         "category": 6,
-        "rating": 4.6,
-        "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.co.uk%2FAbsolute-Batman-Court-Owls-HC%2Fdp%2F1401259103&psig=AOvVaw06wYZCQBxLC3D_sF7VZXSS&ust=1602690386514000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOj2xov1sewCFQAAAAAdAAAAABAD",
-        "image": "81rKbyT6LFL.jpg"
+        "rating": 4.8,
+        "image_url": "https://imgproxy.pdfroom.com/-COPhvTMnJfVigBhhD-VQelSFK_xusGRo7-ipMVfJ8k/rs:auto:1200:630:1/g:no/a0xnOHBEYk1nWkIucG5n.jpg",
+        "image": "kLg8pDbMgZB.jpg"
       }
     },
     {

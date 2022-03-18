@@ -43,8 +43,8 @@
       "pk": 6,
       "model": "products.category",
       "fields": {
-        "name": "graphic_novels",
-        "friendly_name": "Graphic Novels"
+        "name": "manga_comics",
+        "friendly_name": "Manga Comics"
       }
     },
     {
