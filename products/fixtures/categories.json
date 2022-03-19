@@ -3,16 +3,16 @@
       "pk": 1,
       "model": "products.category",
       "fields": {
-        "name": "boardgames",
-        "friendly_name": "Boardgames"
+        "name": "videogames",
+        "friendly_name": "Video Games"
       }
     },
     {
       "pk": 2,
       "model": "products.category",
       "fields": {
-        "name": "cardgames",
-        "friendly_name": "Card Games"
+        "name": "actionfigures",
+        "friendly_name": "Action Figures"
       }
     },
     {
