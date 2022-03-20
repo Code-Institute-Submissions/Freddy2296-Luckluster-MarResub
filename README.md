@@ -12,7 +12,7 @@ sign up for mailing lists, view the available inventory on products and leave re
 All functionality relating to the activities of site Admins and customers is laid out within the [UX + User Stories](#uxuser-stories) section below. 
 
 This project is built upon the Django framework and follows the model-template-view architecture pattern. Sqlite was utilised during development as the database for local testing.
-Sqlite is a relational database management system (RDBMS) embedded within the application itself. Within the [deployed site](https://dmeere-thecomicstore.herokuapp.com/), Postgres is 
+Sqlite is a relational database management system (RDBMS) embedded within the application itself. Within the [deployed site](), Postgres is 
 employed as the Database to house all data. Postgres is an open source object-relational database management system. The data structures and associated applications models are 
 detailed in the [Database](#Database) section. Within the deployed site, Amazon Simple Storage Service (Amazon S3), a Cloud-based object storage service, is utilised to store the static (js, css),
 and media folders (site images).
@@ -22,7 +22,7 @@ various application models (Products, Users, Orders, Product Reviews etc.), as i
 
 ![Django Dashboard](documentation/SiteImages/Admin_Dashboard.jpg)
 
-Throughout the development of the project, [Git](https://git-scm.com/) & [Github](https://github.com/) were employed to support version control. The [Github Repository](https://github.com/damien-meere/full_stack_milestone) 
+Throughout the development of the project, [Git](https://git-scm.com/) & [Github](https://github.com/) were employed to support version control. The [Github Repository](https://github.com/Freddy2296/Luckluster-) 
 for the project is linked directly to the [Heroku-deployed site](https://dmeere-thecomicstore.herokuapp.com/).
 
 The base functionality of this eCommerce application was developed following the direction of the Code Institute's 'Full Stack Frameworks With Django' module, and the [Boutique Ado project](https://github.com/ckz8780/boutique_ado_v1/).
