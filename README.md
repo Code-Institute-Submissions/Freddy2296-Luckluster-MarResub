@@ -22,7 +22,7 @@ various application models (Products, Users, Orders, Product Reviews etc.), as i
 
 ![Django Dashboard](documentation/SiteImages/Admin_Dashboard.jpg)
 
-Throughout the development of the project, [Git](https://git-scm.com/) & [Github](https://github.com/) were employed to support version control. The [Github Repository](https://github.com/Freddy2296/Luckluster-) 
+Throughout the development of the project, [Git](https://git-scm.com/) & [Github](https://github.com/) were employed to support version control. The [Github Repository]() 
 for the project is linked directly to the [Heroku-deployed site]().
 
 The base functionality of this eCommerce application was developed following the direction of the Code Institute's 'Full Stack Frameworks With Django' module, and the [Boutique Ado project](https://github.com/ckz8780/boutique_ado_v1/).
@@ -756,6 +756,3 @@ accrate representation of the products in question.
 
 ###### <i>Disclaimer: This project (Milestone 4) was created for educational purposes as part of the Code Institute's Full Stack Software Development Course.</i>
 
-<p align="center">
-    <img height="150" src="https://github.com/damien-meere/full_stack_milestone/blob/master/static/img/Comic-Store-Logo.png" alt="Comic Store Logo">
-</p>
