@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #### Manga Mania
 ### Full Stack Frameworks with Django Milestone Project - Code Institute
 
@@ -756,3 +757,6 @@ accrate representation of the products in question.
 
 ###### <i>Disclaimer: This project (Milestone 4) was created for educational purposes as part of the Code Institute's Full Stack Software Development Course.</i>
 
+=======
+# Luckluster-
+>>>>>>> f80946de101540bb8023304c3dbf350042c51b6c
