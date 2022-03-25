@@ -23,8 +23,8 @@ various application models (Products, Users, Orders, Product Reviews etc.), as i
 
 ![Django Dashboard](documentation/SiteImages/Admin_Dashboard.jpg)
 
-Throughout the development of the project, [Git](https://git-scm.com/) & [Github](https://github.com/) were employed to support version control. The [Github Repository]() 
-for the project is linked directly to the [Heroku-deployed site]().
+Throughout the development of the project, [Git](https://git-scm.com/) & [Github](https://github.com/) were employed to support version control. The [Github Repository](https://github.com/Freddy2296/Luckluster-) 
+for the project is linked directly to the [Heroku-deployed site]( https://luckluster.herokuapp.com/).
 
 The base functionality of this eCommerce application was developed following the direction of the Code Institute's 'Full Stack Frameworks With Django' module, and the [Boutique Ado project](https://github.com/ckz8780/boutique_ado_v1/).
 
@@ -43,7 +43,7 @@ The base functionality of this eCommerce application was developed following the
 
 
 ## Demo
-A live demo of the project can be found deployed to Heroku [Here]()
+A live demo of the project can be found deployed to Heroku [Here]( https://luckluster.herokuapp.com/)
 
 
 ## UX+User-Stories
@@ -707,7 +707,7 @@ and responsiveness. As detailed in previous sections, depending on the screen si
 [Back to top](#Introduction)
 
 ## Deployment
-A live iteration of this project can be found deployed to [Heroku]()
+A live iteration of this project can be found deployed to [Heroku]( https://luckluster.herokuapp.com/)
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone ` 
 into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
@@ -716,7 +716,7 @@ into your terminal. To cut ties with this GitHub repository, type `git remote rm
 >Ensure that when testing with the Stripe-supported payment system, utilise the [Stripe Testing](https://stripe.com/docs/testing#cards) details. 
 >Throughout the development of this project the following details were utilised - Card number: 4242424242424242 (16-digit Card number), CVV & Date: Any digit combinations you wish.
 
-You can also Clone this Repository to GitHub Desktop, by navigating to the [main page]() of the 
+You can also Clone this Repository to GitHub Desktop, by navigating to the [main page](https://github.com/Freddy2296/Luckluster-) of the 
 repository on GitHub, under the repository name, click Clone or download. Click Open in Desktop to clone the repository and open it in GitHub Desktop. Click Choose... and, 
 using Windows Explorer, navigate to a local path where you want to clone the repository. For more information you can 
 review the [GitHub site](https://help.github.com/en/articles/cloning-a-repository#cloning-a-repository-to-github-desktop).
@@ -752,7 +752,7 @@ Special thanks to my mentor, Aaron. For his guidance throughout this project, I 
 His code help me outline mine and his base for the readme also help so very well deserved thanks!
 
 ### Content and Media
-The product descriptions and images were obtained from sites like [Amazon](www.amazon.co.uk) and [Big Bang Comics](https://stores.comichub.com/big_bang_comics/). These were used to give an
+The product descriptions and images were obtained from sites like [Amazon](www.amazon.co.uk) these were used to give an
 accrate representation of the products in question.
 
 ###### <i>Disclaimer: This project (Milestone 4) was created for educational purposes as part of the Code Institute's Full Stack Software Development Course.</i>
