@@ -23,8 +23,8 @@
         "price": 10.99,
         "category": 6,
         "rating": 4.8,
-        "image_url": "https://imgproxy.pdfroom.com/-COPhvTMnJfVigBhhD-VQelSFK_xusGRo7-ipMVfJ8k/rs:auto:1200:630:1/g:no/a0xnOHBEYk1nWkIucG5n.jpg",
-        "image": "kLg8pDbMgZB.jpg"
+        "image_url": "https://target.scene7.com/is/image/Target/GUEST_0a1c92eb-c415-4149-8f08-e3e4db4c084d?wid=488&hei=488&fmt=pjpeg",
+        "image": "attackontitan.jpg"
       }
     },
     {
@@ -108,8 +108,8 @@
         "price": 8.99 ,
         "category":6 ,
         "rating":  4.5,
-        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81iDNjn-r3L.jpg",
-        "image": "deathnote.jpj"
+        "image_url": "https://cdn.aprendejaponeshoy.com/20313-big_default_2x/death-note-vol1-edicin-bunko.jpg",
+        "image": "dn.jpg"
     }
     },
     {
@@ -220,8 +220,8 @@
         "price": 25.99,
         "category":10 ,
         "rating": 5 ,
-        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxJeFl02Euu8LIyHkMUvDynwZqXZGftTqDmA&usqp=CAU",
-        "image": "myhero2.jpg"
+        "image_url": "https://cdn11.bigcommerce.com/s-kjvm95bh8i/images/stencil/1280x1280/products/79033/125370/t-shirt-my-hero-academia-create-world-ls__81608.1587415681.jpg?c=2",
+        "image": "myhero3.jpg"
     }
   },
   {
@@ -248,8 +248,8 @@
     "price": 17.00 ,
     "category":10,
     "rating": 4.8 ,
-    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6P7JK6Kfn2D3TyKUv8sICSJO-OCAa5LW2H4PcDLCC1GBdwK-shIweqwuBJRRV8HLx-wM&usqp=CAU",
-    "image": "kg.jpg"
+    "image_url": "https://canary.contestimg.wish.com/api/webimage/58edf02d7612df185f01e63e-large.jpg?cache_buster=87b8fcb161d5e9fff23cbaa169dbdab0",
+    "image": "kidgoku3.jpg"
 }
 },
 {
@@ -263,7 +263,7 @@
     "category":10 ,
     "rating": 5 ,
     "image_url": "https://www.icinf.cl/img-1_45149/images-Himiko-toga-mi-h%C3%A9roe-de-la-academia-t-shirt-impreso.jpg",
-    "image": "htoga.jpg"
+    "image": "htogo.jpg"
 }
 },
 {
@@ -281,14 +281,14 @@
 }
 },
 {
-  "pk": 21,
+  "pk": 28,
   "model": "products.product",
   "fields": {
-    "sku": "pp5001348000",
+    "sku": "pp5001349000",
     "name": "Naruto Gk Cosplay Anime Action Figure Model Toy",
     "description": " Sage Mode naruto live like toy now available !",
     "price": 25.99 ,
-    "category":2,
+    "category":2 ,
     "rating": 5 ,
     "image_url": "https://image.made-in-china.com/44f3j00WQdRBntsbioU/Naruto-Gk-Cosplay-Anime-Action-Figure-Model-Toy.jpg",
     "image": "narutogk.jpg"
@@ -365,7 +365,7 @@
 }
 },
 {
-  "pk": 26,
+  "pk": 27,
   "model": "products.product",
   "fields": {
     "sku": "pp5001346089",
