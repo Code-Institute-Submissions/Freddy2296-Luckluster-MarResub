@@ -51,7 +51,7 @@
       "pk": 7,
       "model": "products.category",
       "fields": {
-        "name": "Hats",
+        "name": "hats",
         "friendly_name": "Hats"
       }
     },
