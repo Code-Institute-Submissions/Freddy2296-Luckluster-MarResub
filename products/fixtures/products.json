@@ -18,13 +18,13 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001600425",
-        "name": "Attack on Titan, Vol. 1",
-        "description": "(W)  Hajime Isayama, The main protagonist is a 15-year-old named Eren Yeager who lives with his sister and parents until one day, his village is destroyed by giants called titans. After Eren's mother is eaten by a titan, Eren decides to avenge her death and become strong enough to kill titans.",
+        "name": "Attack on Titan, Vol. 29",
+        "description": "(W)  Hajime Isayama, As a Marleyan invasion dangles like a guillotine blade over the island of Paradis, allies have become enemies, and former friends are at each other's throats. The Yeagerists are in all-out revolt, fighting to dismantle military rule before the potential for world war explodes into certain doom.",
         "price": 10.99,
         "category": 6,
         "rating": 4.8,
-        "image_url": "https://target.scene7.com/is/image/Target/GUEST_0a1c92eb-c415-4149-8f08-e3e4db4c084d?wid=488&hei=488&fmt=pjpeg",
-        "image": "attackontitan.jpg"
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81g+BRauunL.jpg",
+        "image": "29at.jpg"
       }
     },
     {
